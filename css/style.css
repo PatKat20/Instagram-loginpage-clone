@@ -171,7 +171,7 @@ ul{
     justify-content: center;
     align-items: center;
     margin-top:15px;
-    gap:10px;
+    gap:15px;
 }
 
 /* mobile */
@@ -208,4 +208,12 @@ ul{
     .cellphone-area{
         height:110vh;
     }
+}
+
+@media screen and (min-width:1360px){
+    .flex-container{
+        min-width:1000px;
+        padding-top:160px;
+    }
+
 }
