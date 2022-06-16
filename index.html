@@ -14,10 +14,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
     <title>Instagram</title>
 </head>
 
-<body>
+<body onload="alteraFoto1()">
     <main class="flex-container">
         <section class="cellphone-area">
             <img src="img/girlpic.png" alt="Girl with a cat in a instagram story" class="cellphone-area__image">
@@ -32,7 +33,7 @@
                     <div class="input-block">
                         <input type="password" name="pass" id="pass" placeholder="Password">
                     </div>
-                    <button type="submit" class="btn">Log in</button>
+                    <button type="button" class="btn">Log in</button>
                 </form>
                 <p class="user-area__hr">Or</p>
                 <div class="user-area__face">
